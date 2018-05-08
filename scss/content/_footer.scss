@@ -1,0 +1,66 @@
+/**
+ * Mobile+
+ */
+.social-icons {
+  background-color: $gainsboro;
+
+  .wrapper {
+    padding-bottom: .1rem;
+  }
+
+  a, a:link, a:visited, a:active {
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  a:hover {
+    &#linked-in {
+      background-image: url(../images/icons/linked-in_over.png);
+    }
+
+    &#coroflot {
+      background-image: url(../images/icons/coroflot_over.png);
+    }
+
+    &#hiive {
+      background-image: url(../images/icons/hiive_over.png);
+    }
+
+    &#email {
+      background-image: url(../images/icons/email_over.png);
+    }
+  }
+
+  span {
+    display: none;
+  }
+}
+
+#linked-in {
+  background-image: url(../images/icons/linked-in.png);
+}
+
+#coroflot {
+  background-image: url(../images/icons/coroflot.png);
+}
+
+#hiive {
+  background-image: url(../images/icons/hiive.png);
+}
+
+#email {
+  background-image: url(../images/icons/email.png);
+}
+
+.copyright {
+  background-color: $black;
+
+  P {
+    color: $secondary;
+  }
+}

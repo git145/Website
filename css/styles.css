@@ -1,0 +1,296 @@
+/**
+ * General
+ */
+/**
+ * Graphics
+ */
+/**
+ * Sections
+ */
+/**
+ * Font
+ */
+/**
+ * Animation
+ */
+/**
+ * Minimum viewport widths
+ */
+/**
+ * Standard
+ */
+/**
+ * Extra
+ */
+/**
+ * Styling
+ */
+/* 32px */
+/**
+ * Font
+ */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i");
+/**
+ * Font colors
+ */
+body {
+  color: #333;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px; }
+
+/**
+ * Text styles
+ */
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0; }
+
+h1, h2, h4, h5, h6, p {
+  margin-bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #000; }
+
+h1, h3, h4, h5, h6 {
+  color: #000;
+  font-size: 1rem; }
+
+h2, h3 {
+  text-transform: uppercase; }
+
+h1 {
+  color: #fff; }
+
+h2 {
+  font-size: 1.2rem; }
+
+p {
+  color: #333; }
+
+span {
+  display: none;
+  color: #333; }
+
+h2, h3, .align-center, .align-right {
+  display: block; }
+
+h2, h3 {
+  text-align: center; }
+
+h3, p:not(:last-child), iframe:not(:last-child) {
+  margin-bottom: .25rem; }
+
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 1rem; }
+  ul:not(:last-child) {
+    margin-bottom: .25rem; }
+
+.align-center, .align-center-paragraph {
+  text-align: center; }
+
+.align-right {
+  text-align: right; }
+
+/**
+ * Mobile+
+ */
+.social-icons {
+  background-color: #ddd; }
+  .social-icons .wrapper {
+    padding-bottom: .1rem; }
+  .social-icons a, .social-icons a:link, .social-icons a:visited, .social-icons a:active {
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .social-icons a:hover#linked-in {
+    background-image: url(../images/icons/linked-in_over.png); }
+  .social-icons a:hover#coroflot {
+    background-image: url(../images/icons/coroflot_over.png); }
+  .social-icons a:hover#hiive {
+    background-image: url(../images/icons/hiive_over.png); }
+  .social-icons a:hover#email {
+    background-image: url(../images/icons/email_over.png); }
+  .social-icons span {
+    display: none; }
+
+#linked-in {
+  background-image: url(../images/icons/linked-in.png); }
+
+#coroflot {
+  background-image: url(../images/icons/coroflot.png); }
+
+#hiive {
+  background-image: url(../images/icons/hiive.png); }
+
+#email {
+  background-image: url(../images/icons/email.png); }
+
+.copyright {
+  background-color: #000; }
+  .copyright P {
+    color: #fff; }
+
+/*
+ * Mobile+
+ */
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%226%22%20height%3D%226%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%3Crect%20fill%3D%22%23aaa%22%20height%3D%226%22%20width%3D%226%22%20y%3D%220%22%20x%3D%220%22%20%2F%3E%0A%20%20%3Crect%20fill%3D%22%23999%22%20height%3D%224%22%20width%3D%224%22%20y%3D%221%22%20x%3D%221%22%20%2F%3E%0A%3C%2Fsvg%3E"); }
+  body.redirecting {
+    background-color: #000;
+    background-image: none; }
+
+header {
+  background-color: #000; }
+
+#main {
+  margin: 0 auto;
+  max-width: 68.75rem; }
+
+.bar {
+  position: relative;
+  display: block;
+  height: 4.5rem;
+  text-decoration: none; }
+  .bar h2 {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+  .bar:hover .bar-background {
+    opacity: .2; }
+
+.bar-background {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  opacity: .4;
+  transition: opacity 0.5s; }
+  .bar-background span {
+    display: none; }
+
+#introduction .bar {
+  background-color: #27a4dd; }
+#introduction .bar-background {
+  background-image: url(../images/bars/mobile/introduction.png); }
+
+#biography .bar {
+  background-color: #9dd5c0; }
+#biography .bar-background {
+  background-image: url(../images/bars/mobile/biography.png); }
+
+#games .bar {
+  background-color: #f39cc3; }
+#games .bar-background {
+  background-image: url(../images/bars/mobile/games.png); }
+
+#art .bar {
+  background-color: #f1646c; }
+#art .bar-background {
+  background-image: url(../images/bars/mobile/art.png); }
+
+#arduino .bar {
+  background-color: #fac174; }
+#arduino .bar-background {
+  background-image: url(../images/bars/mobile/arduino.png); }
+
+#music .bar {
+  background-color: #27a4dd; }
+#music .bar-background {
+  background-image: url(../images/bars/mobile/music.png); }
+
+#other-projects .bar {
+  background-color: #9dd5c0; }
+#other-projects .bar-background {
+  background-image: url(../images/bars/mobile/other-projects.png); }
+
+.panel {
+  display: none;
+  padding: 0.5rem;
+  background-color: white; }
+  .panel.active {
+    display: block; }
+  .panel img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28.5rem;
+    width: 100%; }
+    .panel img:not(:last-child) {
+      margin-bottom: .25rem; }
+  .panel > a {
+    display: block; }
+    .panel > a:not(:last-child) {
+      margin-bottom: .25rem; }
+
+.wrapper {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 68.75rem;
+  padding: 0.5rem; }
+
+#me {
+  width: 9.875rem; }
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 9.6252rem;
+  width: 16rem;
+  border: none; }
+
+/**
+ * Narrow+
+ */
+@media screen and (min-width: 45rem) {
+  #introduction .bar-background {
+    background-image: url(../images/bars/narrow/introduction.png); }
+  #biography .bar-background {
+    background-image: url(../images/bars/narrow/biography.png); }
+  #games .bar-background {
+    background-image: url(../images/bars/narrow/games.png); }
+  #art .bar-background {
+    background-image: url(../images/bars/narrow/art.png); }
+  #arduino .bar-background {
+    background-image: url(../images/bars/narrow/arduino.png); }
+  #music .bar-background {
+    background-image: url(../images/bars/narrow/music.png); }
+  #other-projects .bar-background {
+    background-image: url(../images/bars/narrow/other-projects.png); }
+
+  .bar {
+    height: 10rem; }
+
+  iframe {
+    height: 24.063rem;
+    width: 40rem; } }
+/**
+ * Normal+
+ */
+@media screen and (min-width: 60rem) {
+  #introduction .bar-background {
+    background-image: url(../images/bars/normal/introduction.png); }
+  #biography .bar-background {
+    background-image: url(../images/bars/normal/biography.png); }
+  #games .bar-background {
+    background-image: url(../images/bars/normal/games.png); }
+  #art .bar-background {
+    background-image: url(../images/bars/normal/art.png); }
+  #arduino .bar-background {
+    background-image: url(../images/bars/normal/arduino.png); }
+  #music .bar-background {
+    background-image: url(../images/bars/normal/music.png); }
+  #other-projects .bar-background {
+    background-image: url(../images/bars/normal/other-projects.png); } }
+
+/*# sourceMappingURL=styles.css.map */

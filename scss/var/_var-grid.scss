@@ -1,0 +1,38 @@
+/**
+ * Minimum viewport widths
+ */
+/**
+ * Standard
+ */
+// 0px
+$mobile: 0;
+
+// 720px
+$narrow: 45rem;
+
+// 960px
+$normal: 60rem;
+
+// 1200px
+$wide: 75rem;
+
+/**
+ * Extra
+ */
+// 320px
+$mobile_end: 20rem;
+
+// 540px
+$mobile_end_narrow: 33.75rem;
+
+// 880px
+$burger_end: 55rem;
+
+// 1100px 
+$max-width: 68.75rem;
+
+/**
+ * Styling
+ */
+$base-padding: .5rem;
+$vert-space: 2rem; /* 32px */
